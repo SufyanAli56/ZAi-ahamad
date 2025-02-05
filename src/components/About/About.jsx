@@ -2,12 +2,13 @@ import React from "react";
 import Zai from "../../assets/Image.png";
 import Zai1 from "../../assets/Image (1).png";
 import Box from "../../assets/Image (2).png";
+import Divider from "../Navbar/Diveder";
 
 const About = () => {
   return (
     <div className="bg-[#060C31] w-full py-20 flex flex-col justify-center items-center px-6 md:px-10">
       {/* Centered Heading */}
-      <p className="text-[#16b8c3] text-center md:text-left">
+      <p className="text-[#16b8c3] text-center md:text-left mr-24">
         #Meet the Architect of Digital Solutions
       </p>
       <h1 className="text-4xl font-extrabold text-white mb-10 text-center w-full">
@@ -108,6 +109,9 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-16 w-full max-w-8xl">
+        <Divider/>
       </div>
     </div>
   );
